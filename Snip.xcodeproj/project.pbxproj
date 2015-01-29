@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2C3CF101A7A49FF00C91BFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C3CF0F1A7A49FF00C91BFD /* AppDelegate.m */; };
+		D2C3CF121A7A49FF00C91BFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C3CF111A7A49FF00C91BFD /* main.m */; };
+		D2C3CF141A7A49FF00C91BFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C3CF131A7A49FF00C91BFD /* Images.xcassets */; };
+		D2C3CF171A7A49FF00C91BFD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2C3CF151A7A49FF00C91BFD /* MainMenu.xib */; };
+		D2C3CF231A7A49FF00C91BFD /* SnipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C3CF221A7A49FF00C91BFD /* SnipTests.m */; };
+		D2C3CF301A7A4CA400C91BFD /* SnipDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C3CF2F1A7A4CA400C91BFD /* SnipDemoViewController.m */; };
+		D2C3CF371A7A54A000C91BFD /* MQUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C3CF361A7A54A000C91BFD /* MQUI.framework */; };
+		D2C3CF381A7A54B200C91BFD /* Snip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C3CF2C1A7A4ACE00C91BFD /* Snip.framework */; };
+		D2C3CF451A7A5DFE00C91BFD /* MQUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C3CF361A7A54A000C91BFD /* MQUI.framework */; };
+		D2C3CF461A7A5DFE00C91BFD /* MQUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D2C3CF361A7A54A000C91BFD /* MQUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D2C3CF471A7A5DFE00C91BFD /* Snip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C3CF2C1A7A4ACE00C91BFD /* Snip.framework */; };
+		D2C3CF481A7A5DFE00C91BFD /* Snip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D2C3CF2C1A7A4ACE00C91BFD /* Snip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2C3CF1D1A7A49FF00C91BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2C3CF011A7A49FE00C91BFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2C3CF081A7A49FF00C91BFD;
+			remoteInfo = Snip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D2C3CF441A7A5D1A00C91BFD /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D2C3CF481A7A5DFE00C91BFD /* Snip.framework in Embed Frameworks */,
+				D2C3CF461A7A5DFE00C91BFD /* MQUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D2C3CF091A7A49FF00C91BFD /* Snip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C3CF0D1A7A49FF00C91BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2C3CF0E1A7A49FF00C91BFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D2C3CF0F1A7A49FF00C91BFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D2C3CF111A7A49FF00C91BFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D2C3CF131A7A49FF00C91BFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D2C3CF161A7A49FF00C91BFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D2C3CF1C1A7A49FF00C91BFD /* SnipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C3CF211A7A49FF00C91BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2C3CF221A7A49FF00C91BFD /* SnipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SnipTests.m; sourceTree = "<group>"; };
+		D2C3CF2C1A7A4ACE00C91BFD /* Snip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Snip.framework; path = Frameworks/Snip.framework; sourceTree = "<group>"; };
+		D2C3CF2E1A7A4CA400C91BFD /* SnipDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnipDemoViewController.h; sourceTree = "<group>"; };
+		D2C3CF2F1A7A4CA400C91BFD /* SnipDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnipDemoViewController.m; sourceTree = "<group>"; };
+		D2C3CF361A7A54A000C91BFD /* MQUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MQUI.framework; path = Frameworks/MQUI.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2C3CF061A7A49FF00C91BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C3CF471A7A5DFE00C91BFD /* Snip.framework in Frameworks */,
+				D2C3CF381A7A54B200C91BFD /* Snip.framework in Frameworks */,
+				D2C3CF371A7A54A000C91BFD /* MQUI.framework in Frameworks */,
+				D2C3CF451A7A5DFE00C91BFD /* MQUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C3CF191A7A49FF00C91BFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2C3CF001A7A49FE00C91BFD = {
+			isa = PBXGroup;
+			children = (
+				D2C3CF361A7A54A000C91BFD /* MQUI.framework */,
+				D2C3CF2C1A7A4ACE00C91BFD /* Snip.framework */,
+				D2C3CF0B1A7A49FF00C91BFD /* Snip */,
+				D2C3CF1F1A7A49FF00C91BFD /* SnipTests */,
+				D2C3CF0A1A7A49FF00C91BFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2C3CF0A1A7A49FF00C91BFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2C3CF091A7A49FF00C91BFD /* Snip.app */,
+				D2C3CF1C1A7A49FF00C91BFD /* SnipTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2C3CF0B1A7A49FF00C91BFD /* Snip */ = {
+			isa = PBXGroup;
+			children = (
+				D2C3CF0E1A7A49FF00C91BFD /* AppDelegate.h */,
+				D2C3CF0F1A7A49FF00C91BFD /* AppDelegate.m */,
+				D2C3CF131A7A49FF00C91BFD /* Images.xcassets */,
+				D2C3CF151A7A49FF00C91BFD /* MainMenu.xib */,
+				D2C3CF0C1A7A49FF00C91BFD /* Supporting Files */,
+				D2C3CF2E1A7A4CA400C91BFD /* SnipDemoViewController.h */,
+				D2C3CF2F1A7A4CA400C91BFD /* SnipDemoViewController.m */,
+			);
+			path = Snip;
+			sourceTree = "<group>";
+		};
+		D2C3CF0C1A7A49FF00C91BFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2C3CF0D1A7A49FF00C91BFD /* Info.plist */,
+				D2C3CF111A7A49FF00C91BFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D2C3CF1F1A7A49FF00C91BFD /* SnipTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2C3CF221A7A49FF00C91BFD /* SnipTests.m */,
+				D2C3CF201A7A49FF00C91BFD /* Supporting Files */,
+			);
+			path = SnipTests;
+			sourceTree = "<group>";
+		};
+		D2C3CF201A7A49FF00C91BFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D2C3CF211A7A49FF00C91BFD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2C3CF081A7A49FF00C91BFD /* Snip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2C3CF261A7A49FF00C91BFD /* Build configuration list for PBXNativeTarget "Snip" */;
+			buildPhases = (
+				D2C3CF051A7A49FF00C91BFD /* Sources */,
+				D2C3CF061A7A49FF00C91BFD /* Frameworks */,
+				D2C3CF071A7A49FF00C91BFD /* Resources */,
+				D2C3CF441A7A5D1A00C91BFD /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Snip;
+			productName = Snip;
+			productReference = D2C3CF091A7A49FF00C91BFD /* Snip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2C3CF1B1A7A49FF00C91BFD /* SnipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2C3CF291A7A49FF00C91BFD /* Build configuration list for PBXNativeTarget "SnipTests" */;
+			buildPhases = (
+				D2C3CF181A7A49FF00C91BFD /* Sources */,
+				D2C3CF191A7A49FF00C91BFD /* Frameworks */,
+				D2C3CF1A1A7A49FF00C91BFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2C3CF1E1A7A49FF00C91BFD /* PBXTargetDependency */,
+			);
+			name = SnipTests;
+			productName = SnipTests;
+			productReference = D2C3CF1C1A7A49FF00C91BFD /* SnipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2C3CF011A7A49FE00C91BFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = isee15;
+				TargetAttributes = {
+					D2C3CF081A7A49FF00C91BFD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D2C3CF1B1A7A49FF00C91BFD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D2C3CF081A7A49FF00C91BFD;
+					};
+				};
+			};
+			buildConfigurationList = D2C3CF041A7A49FE00C91BFD /* Build configuration list for PBXProject "Snip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2C3CF001A7A49FE00C91BFD;
+			productRefGroup = D2C3CF0A1A7A49FF00C91BFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2C3CF081A7A49FF00C91BFD /* Snip */,
+				D2C3CF1B1A7A49FF00C91BFD /* SnipTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2C3CF071A7A49FF00C91BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C3CF141A7A49FF00C91BFD /* Images.xcassets in Resources */,
+				D2C3CF171A7A49FF00C91BFD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C3CF1A1A7A49FF00C91BFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2C3CF051A7A49FF00C91BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C3CF121A7A49FF00C91BFD /* main.m in Sources */,
+				D2C3CF301A7A4CA400C91BFD /* SnipDemoViewController.m in Sources */,
+				D2C3CF101A7A49FF00C91BFD /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2C3CF181A7A49FF00C91BFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2C3CF231A7A49FF00C91BFD /* SnipTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2C3CF1E1A7A49FF00C91BFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2C3CF081A7A49FF00C91BFD /* Snip */;
+			targetProxy = D2C3CF1D1A7A49FF00C91BFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2C3CF151A7A49FF00C91BFD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2C3CF161A7A49FF00C91BFD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2C3CF241A7A49FF00C91BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D2C3CF251A7A49FF00C91BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D2C3CF271A7A49FF00C91BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				INFOPLIST_FILE = Snip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2C3CF281A7A49FF00C91BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				INFOPLIST_FILE = Snip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D2C3CF2A1A7A49FF00C91BFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SnipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snip.app/Contents/MacOS/Snip";
+			};
+			name = Debug;
+		};
+		D2C3CF2B1A7A49FF00C91BFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SnipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snip.app/Contents/MacOS/Snip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2C3CF041A7A49FE00C91BFD /* Build configuration list for PBXProject "Snip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C3CF241A7A49FF00C91BFD /* Debug */,
+				D2C3CF251A7A49FF00C91BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2C3CF261A7A49FF00C91BFD /* Build configuration list for PBXNativeTarget "Snip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C3CF271A7A49FF00C91BFD /* Debug */,
+				D2C3CF281A7A49FF00C91BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2C3CF291A7A49FF00C91BFD /* Build configuration list for PBXNativeTarget "SnipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2C3CF2A1A7A49FF00C91BFD /* Debug */,
+				D2C3CF2B1A7A49FF00C91BFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2C3CF011A7A49FE00C91BFD /* Project object */;
+}

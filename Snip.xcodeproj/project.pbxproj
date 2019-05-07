@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B36E6123228129DA00D684B4 /* JietuFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36E6122228129DA00D684B4 /* JietuFramework.framework */; };
+		B36E612422812A1000D684B4 /* JietuFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B36E6122228129DA00D684B4 /* JietuFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B36E612622812A3D00D684B4 /* JietuFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36E612522812A3D00D684B4 /* JietuFramework.framework */; };
+		B36E612822812A7600D684B4 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36E612722812A7600D684B4 /* AFNetworking.framework */; };
+		B36E612922812A8700D684B4 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B36E612722812A7600D684B4 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B36E612B22812A9E00D684B4 /* CocoaLumberjack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36E612A22812A9E00D684B4 /* CocoaLumberjack.framework */; };
+		B36E612C22812AA300D684B4 /* CocoaLumberjack.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B36E612A22812A9E00D684B4 /* CocoaLumberjack.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B36E612F22812C4100D684B4 /* HookUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B36E612E22812C4100D684B4 /* HookUtil.m */; };
 		D2C3CF101A7A49FF00C91BFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C3CF0F1A7A49FF00C91BFD /* AppDelegate.m */; };
 		D2C3CF121A7A49FF00C91BFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C3CF111A7A49FF00C91BFD /* main.m */; };
 		D2C3CF141A7A49FF00C91BFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C3CF131A7A49FF00C91BFD /* Images.xcassets */; };
@@ -15,9 +23,7 @@
 		D2C3CF301A7A4CA400C91BFD /* SnipDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C3CF2F1A7A4CA400C91BFD /* SnipDemoViewController.m */; };
 		D2C3CF371A7A54A000C91BFD /* MQUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C3CF361A7A54A000C91BFD /* MQUI.framework */; };
 		D2C3CF381A7A54B200C91BFD /* Snip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C3CF2C1A7A4ACE00C91BFD /* Snip.framework */; };
-		D2C3CF451A7A5DFE00C91BFD /* MQUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C3CF361A7A54A000C91BFD /* MQUI.framework */; };
 		D2C3CF461A7A5DFE00C91BFD /* MQUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D2C3CF361A7A54A000C91BFD /* MQUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		D2C3CF471A7A5DFE00C91BFD /* Snip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C3CF2C1A7A4ACE00C91BFD /* Snip.framework */; };
 		D2C3CF481A7A5DFE00C91BFD /* Snip.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D2C3CF2C1A7A4ACE00C91BFD /* Snip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -38,6 +44,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				B36E612C22812AA300D684B4 /* CocoaLumberjack.framework in Embed Frameworks */,
+				B36E612922812A8700D684B4 /* AFNetworking.framework in Embed Frameworks */,
+				B36E612422812A1000D684B4 /* JietuFramework.framework in Embed Frameworks */,
 				D2C3CF481A7A5DFE00C91BFD /* Snip.framework in Embed Frameworks */,
 				D2C3CF461A7A5DFE00C91BFD /* MQUI.framework in Embed Frameworks */,
 			);
@@ -47,6 +56,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B36E6122228129DA00D684B4 /* JietuFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JietuFramework.framework; path = Frameworks/JietuFramework.framework; sourceTree = "<group>"; };
+		B36E612522812A3D00D684B4 /* JietuFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JietuFramework.framework; path = Frameworks/JietuFramework.framework; sourceTree = "<group>"; };
+		B36E612722812A7600D684B4 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = Frameworks/AFNetworking.framework; sourceTree = "<group>"; };
+		B36E612A22812A9E00D684B4 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Frameworks/CocoaLumberjack.framework; sourceTree = "<group>"; };
+		B36E612D22812C4100D684B4 /* HookUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookUtil.h; sourceTree = "<group>"; };
+		B36E612E22812C4100D684B4 /* HookUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookUtil.m; sourceTree = "<group>"; };
 		D2C3CF091A7A49FF00C91BFD /* Snip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C3CF0D1A7A49FF00C91BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2C3CF0E1A7A49FF00C91BFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,10 +83,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2C3CF471A7A5DFE00C91BFD /* Snip.framework in Frameworks */,
+				B36E612B22812A9E00D684B4 /* CocoaLumberjack.framework in Frameworks */,
+				B36E612822812A7600D684B4 /* AFNetworking.framework in Frameworks */,
+				B36E6123228129DA00D684B4 /* JietuFramework.framework in Frameworks */,
 				D2C3CF381A7A54B200C91BFD /* Snip.framework in Frameworks */,
 				D2C3CF371A7A54A000C91BFD /* MQUI.framework in Frameworks */,
-				D2C3CF451A7A5DFE00C91BFD /* MQUI.framework in Frameworks */,
+				B36E612622812A3D00D684B4 /* JietuFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,14 +102,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B36E6121228129DA00D684B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B36E612A22812A9E00D684B4 /* CocoaLumberjack.framework */,
+				B36E612722812A7600D684B4 /* AFNetworking.framework */,
+				B36E6122228129DA00D684B4 /* JietuFramework.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D2C3CF001A7A49FE00C91BFD = {
 			isa = PBXGroup;
 			children = (
+				B36E612522812A3D00D684B4 /* JietuFramework.framework */,
 				D2C3CF361A7A54A000C91BFD /* MQUI.framework */,
 				D2C3CF2C1A7A4ACE00C91BFD /* Snip.framework */,
 				D2C3CF0B1A7A49FF00C91BFD /* Snip */,
 				D2C3CF1F1A7A49FF00C91BFD /* SnipTests */,
 				D2C3CF0A1A7A49FF00C91BFD /* Products */,
+				B36E6121228129DA00D684B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -115,6 +144,8 @@
 				D2C3CF0C1A7A49FF00C91BFD /* Supporting Files */,
 				D2C3CF2E1A7A4CA400C91BFD /* SnipDemoViewController.h */,
 				D2C3CF2F1A7A4CA400C91BFD /* SnipDemoViewController.m */,
+				B36E612D22812C4100D684B4 /* HookUtil.h */,
+				B36E612E22812C4100D684B4 /* HookUtil.m */,
 			);
 			path = Snip;
 			sourceTree = "<group>";
@@ -207,6 +238,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -245,6 +277,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B36E612F22812C4100D684B4 /* HookUtil.m in Sources */,
 				D2C3CF121A7A49FF00C91BFD /* main.m in Sources */,
 				D2C3CF301A7A4CA400C91BFD /* SnipDemoViewController.m in Sources */,
 				D2C3CF101A7A49FF00C91BFD /* AppDelegate.m in Sources */,

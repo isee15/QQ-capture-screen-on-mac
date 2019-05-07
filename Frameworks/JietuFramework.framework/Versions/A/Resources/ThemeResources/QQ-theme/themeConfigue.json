@@ -1,0 +1,170 @@
+{
+    "JTToolbarView_BackgroundColor" : {"Hex" : "#ffffff"},
+    
+    "JTEditGraphTypeRoundRect_frame" : {"X" : 20, "Y" : 8, "W" : 28, "H" : 26},
+    "JTEditGraphTypeRoundRect_hover" : "JTEditGraphTypeRoundRect_hover",
+    "JTEditGraphTypeRoundRect_selected" : "JTEditGraphTypeRoundRect_selected",
+    "JTEditGraphTypeRoundRect_pressed" : "JTEditGraphTypeRoundRect_selected",
+    "JTEditGraphTypeRoundRect_normal" : "JTEditGraphTypeRoundRect_normal",
+    "JTEditGraphTypeRoundRect_disabled" : "JTEditGraphTypeRoundRect_normal",
+    
+    "JTEditGraphTypeOval_frame" : {"X" : 60, "Y" : 8, "W" : 28, "H" : 26},
+    "JTEditGraphTypeOval_hover" : "JTEditGraphTypeOval_hover",
+    "JTEditGraphTypeOval_selected" : "JTEditGraphTypeOval_selected",
+    "JTEditGraphTypeOval_pressed" : "JTEditGraphTypeOval_selected",
+    "JTEditGraphTypeOval_normal" : "JTEditGraphTypeOval_normal",
+    "JTEditGraphTypeOval_disabled" : "JTEditGraphTypeOval_normal",
+    
+    "JTEditGraphTypeArrow_frame" : {"X" : 100, "Y" : 8, "W" : 28, "H" : 26},
+    "JTEditGraphTypeArrow_hover" : "JTEditGraphTypeArrow_hover",
+    "JTEditGraphTypeArrow_selected" : "JTEditGraphTypeArrow_selected",
+    "JTEditGraphTypeArrow_pressed" : "JTEditGraphTypeArrow_selected",
+    "JTEditGraphTypeArrow_normal" : "JTEditGraphTypeArrow_normal",
+    "JTEditGraphTypeArrow_disabled" : "JTEditGraphTypeArrow_normal",
+    
+    "JTEditGraphTypeCurve_frame" : {"X" : 140, "Y" : 8, "W" : 28, "H" : 26},
+    "JTEditGraphTypeCurve_hover" : "JTEditGraphTypeCurve_hover",
+    "JTEditGraphTypeCurve_selected" : "JTEditGraphTypeCurve_selected",
+    "JTEditGraphTypeCurve_pressed" : "JTEditGraphTypeCurve_selected",
+    "JTEditGraphTypeCurve_normal" : "JTEditGraphTypeCurve_normal",
+    "JTEditGraphTypeCurve_disabled" : "JTEditGraphTypeCurve_normal",
+    
+    "JTEditGraphTypeMosaicPen_frame" : {"X" : 180, "Y" : 8, "W" : 28, "H" : 26},
+    "JTEditGraphTypeMosaicPen_hover" : "JTEditGraphTypeMosaicPen_hover",
+    "JTEditGraphTypeMosaicPen_selected" : "JTEditGraphTypeMosaicPen_selected",
+    "JTEditGraphTypeMosaicPen_pressed" : "JTEditGraphTypeMosaicPen_selected",
+    "JTEditGraphTypeMosaicPen_normal" : "JTEditGraphTypeMosaicPen_normal",
+    "JTEditGraphTypeMosaicPen_disabled" : "JTEditGraphTypeMosaicPen_normal",
+    
+    "JTEditGraphTypeText_frame" : {"X" : 220, "Y" : 8, "W" : 28, "H" : 26},
+    "JTEditGraphTypeText_hover" : "JTEditGraphTypeText_hover",
+    "JTEditGraphTypeText_selected" : "JTEditGraphTypeText_selected",
+    "JTEditGraphTypeText_pressed" : "JTEditGraphTypeText_selected",
+    "JTEditGraphTypeText_normal" : "JTEditGraphTypeText_normal",
+    "JTEditGraphTypeText_disabled" : "JTEditGraphTypeText_normal",
+    
+    "JTEditGraphTypeTag_frame" : {"X" : 260, "Y" : 8, "W" : 28, "H" : 26},
+    "JTEditGraphTypeTag_hover" : "JTEditGraphTypeTag_hover",
+    "JTEditGraphTypeTag_selected" : "JTEditGraphTypeTag_selected",
+    "JTEditGraphTypeTag_pressed" : "JTEditGraphTypeTag_selected",
+    "JTEditGraphTypeTag_normal" : "JTEditGraphTypeTag_normal",
+    "JTEditGraphTypeTag_disabled" : "JTEditGraphTypeTag_normal",
+    
+    "JTToolbarFunctionButtonTypeUndo_frame" : {"X" : 320, "Y" : 8, "W" : 28, "H" : 26},
+    "JTToolbarFunctionButtonTypeUndo_hover" : "JTToolbarFunctionButtonTypeUndo_hover",
+    "JTToolbarFunctionButtonTypeUndo_selected" : "JTToolbarFunctionButtonTypeUndo_selected",
+    "JTToolbarFunctionButtonTypeUndo_pressed" : "JTToolbarFunctionButtonTypeUndo_selected",
+    "JTToolbarFunctionButtonTypeUndo_normal" : "JTToolbarFunctionButtonTypeUndo_normal",
+    "JTToolbarFunctionButtonTypeUndo_disabled" : "JTToolbarFunctionButtonTypeUndo_disabled",
+    
+    "JTToolbarFunctionButtonTypeSave_frame" : {"X" : 360, "Y" : 8, "W" : 28, "H" : 26},
+    "JTToolbarFunctionButtonTypeSave_hover" : "JTToolbarFunctionButtonTypeSave_hover",
+    "JTToolbarFunctionButtonTypeSave_selected" : "JTToolbarFunctionButtonTypeSave_selected",
+    "JTToolbarFunctionButtonTypeSave_pressed" : "JTToolbarFunctionButtonTypeSave_selected",
+    "JTToolbarFunctionButtonTypeSave_normal" : "JTToolbarFunctionButtonTypeSave_normal",
+    "JTToolbarFunctionButtonTypeSave_disabled" : "JTToolbarFunctionButtonTypeSave_normal",
+    
+    "JTToolbarFunctionButtonTypeCancel_frame" : {"X" : 400, "Y" : 8, "W" : 28, "H" : 26},
+    "JTToolbarFunctionButtonTypeCancel_hover" : "JTToolbarFunctionButtonTypeCancel_hover",
+    "JTToolbarFunctionButtonTypeCancel_selected" : "JTToolbarFunctionButtonTypeCancel_selected",
+    "JTToolbarFunctionButtonTypeCancel_pressed" : "JTToolbarFunctionButtonTypeCancel_selected",
+    "JTToolbarFunctionButtonTypeCancel_normal" : "JTToolbarFunctionButtonTypeCancel_normal",
+    "JTToolbarFunctionButtonTypeCancel_disabled" : "JTToolbarFunctionButtonTypeCancel_normal",
+    
+    "JTToolbarFunctionButtonTypeOK_frame" : {"X" : 440, "Y" : 8, "W" : 28, "H" : 26},
+    "JTToolbarFunctionButtonTypeOK_hover" : "JTToolbarFunctionButtonTypeOK_hover",
+    "JTToolbarFunctionButtonTypeOK_selected" : "JTToolbarFunctionButtonTypeOK_selected",
+    "JTToolbarFunctionButtonTypeOK_pressed" : "JTToolbarFunctionButtonTypeOK_selected",
+    "JTToolbarFunctionButtonTypeOK_normal" : "JTToolbarFunctionButtonTypeOK_normal",
+    "JTToolbarFunctionButtonTypeOK_disabled" : "JTToolbarFunctionButtonTypeOK_normal",
+
+    "JTToolbarSeperateLine" : "JTToolbarSeperateLine",
+    
+    
+    "JTCaptureView_BackgroundColor" : {"Hex" : "#000000", "A" : 0.6},
+    "JTCaptureView_SelectRect_BorderColor" : {"Hex" : "#12b7f5"},
+    "JTCaptureView_SelectRect_BorderWidth" : 2,
+    "JTCaptureView_SelectRect_FillColor" : {"Hex" : "#d3d3d3", "A" : 0.1},
+
+    "JTCaptureView_ControlPoint_Size" : {"W" : 10, "H" : 10},
+    "JTCaptureView_ControlPoint_FillColor" : {"Hex" : "#ffffff"},
+    "JTCaptureView_ControlPoint_StrokeColor" : {"Hex" : "#12b7f5"},
+    "JTCaptureView_ControlPoint_StrokeWidth" : 2,
+    
+    "JTCaptureSizeinfoView_Size" : {"W" : 84, "H" : 25},
+    "JTCaptureSizeinfoView_BackgroundColor" : {"Hex" : "#333333", "A" : 0.8},
+    "JTCaptureSizeinfoView_BorderColor" : {},
+    "JTCaptureSizeinfoView_FontColor" : {"Hex" : "#ededed"},
+    "JTCaptureSizeinfoView_Font" : {"Name" : "helvetica", "Size" : 12},
+    "JTCaptureSizeInfoView_EnableGaussEffect" : false,
+    
+    "JTMagnifierCrossLineColor" : {"Hex" : "#12b7f5"},
+    "JTMagnifierBackgroundColor" : {"Hex" : "#ffffff"},
+    "JTMagnifierInfoBackgroundColor" : {"Hex" : "#3c3c3c", "A":0.9},
+    "JTMagnifier_FontColor" : {"Hex" : "#d3d3d3"},
+    
+    "JTPopover_BackgroundColor" : {"Hex" : "#ffffff"},
+    "JTPopoverLogo" : "jietu",
+    
+    "JTToolbarLineWidth3px_normal" : "JTToolbarLineWidth3px_normal",
+    "JTToolbarLineWidth3px_selected" : "JTToolbarLineWidth3px_selected",
+    "JTToolbarLineWidth6px_normal" : "JTToolbarLineWidth6px_normal",
+    "JTToolbarLineWidth6px_selected" : "JTToolbarLineWidth6px_selected",
+    "JTToolbarLineWidth9px_normal" : "JTToolbarLineWidth9px_normal",
+    "JTToolbarLineWidth9px_selected" : "JTToolbarLineWidth9px_selected",
+    
+    "JTPopoverLineColorBorderColor" : {"Hex" : "#000000", "A" : 0.2},
+    "JTPopoverFontSizeBorderColor" : {"Hex" : "#abadba"},
+    "JTPopoverFontSize_FontColor" : {"Hex" : "#000000"},
+    
+    "JTPopoverMenu_BackgroundColor" : {"Hex" : "#ffffff"},
+    "JTPopoverMenu_BorderColor" : {},
+    "JTPopoverMenu_HoverColor" : {"Hex" : "#4396ff"},
+    
+    "JTPopoverPullDownArrow" : "JTPopoverPullDownArrow",
+
+    "jtswitch_english" : "jtswitch_english",
+    "jtswitch" : "jtswitch",
+    "jtswitchFirstFrame_english" : "jtswitchFirstFrame_english",
+    "jtswitchFirstFrame" : "jtswitchFirstFrame",
+
+
+    "logoIntroduce_hover" : "logoIntroduce_hover",
+    "logoIntroduce_normal" : "logoIntroduce_normal",
+
+    "move_cursor" : "move_cursor",
+    "resize_cursor_0" : "resize_cursor_0",
+    "resize_cursor_45" : "resize_cursor_45",
+    "resize_cursor_90" : "resize_cursor_90",
+    "resize_cursor_135" : "resize_cursor_135",
+    "rotate_cursor_225" : "rotate_cursor_225",
+    "rotate_cursor_315" : "rotate_cursor_315",
+    "sightingTelescopeCursor" : "sightingTelescopeCursor",
+    
+    "JTPopoverLineWidthViewSize" : {"W" : 100, "H" : 40},
+    "JTPopoverLineWidthViewMargin" : {"L" : 20},
+    "JTPopoverLineWidthButton1Frame" : {"X" : 0, "Y" : 10, "W" : 20, "H" : 20},
+    "JTPopoverLineWidthButton2Frame" : {"X" : 36, "Y" : 10, "W" : 20, "H" : 20},
+    "JTPopoverLineWidthButton3Frame" : {"X" : 80, "Y" : 10, "W" : 20, "H" : 20},
+    "JTPopoverLineWidthButton1Value" : 3,
+    "JTPopoverLineWidthButton2Value" : 6,
+    "JTPopoverLineWidthButton3Value" : 9,
+    
+    "JTPopoverLineColorViewSize" : {"W" : 87, "H" : 40},
+    "JTPopoverLineColorViewMargin" : {"L" : 40},
+    
+    "JTPopoverFontSizeViewSize" : {"W" : 87, "H" : 40},
+    "JTPopoverFontSizeViewMargin" : {"L" : 20},
+
+    "JTPopoverViewSize_WidthColor" : {"W" : 269, "H" : 45},
+    "JTPopoverViewSize_Width" : {"W" : 140, "H" : 45},
+    "JTPopoverViewSize_FontColor" : {"W" : 253, "H" : 45},
+    "JTPopoverViewSize_Logo" : {"W" : 56, "H" : 45},
+
+    "JTPopoverViewArrowSize" : {"W" : 10, "H" : 5},
+
+    "JTSwitchPullDown" : "JTSwitchPullDown",
+    "JTSwitchPullUp" : "JTSwitchPullUp",
+
+    "JTToolbarPanelSize" : {"W" : 480, "H" : 40},
+}

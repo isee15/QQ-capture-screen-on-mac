@@ -12,6 +12,7 @@
 #import "HookUtil.h"
 
 @interface SnipDemoViewController ()
+@property (weak) IBOutlet NSImageView *imgView;
 
 @end
 
@@ -24,6 +25,18 @@
     ^(MQSCCaptureWindowManager *oriSelf, NSNotification *noti) {
         ((void (*)(id, SEL,NSNotification *))_imp)(oriSelf, _cmd, noti);
         NSLog(@"finishedCapture：%@",noti);
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            NSPasteboard *pasteboard = [NSPasteboard generalPasteboard];
+            NSArray *classArray = [NSArray arrayWithObject:[NSImage class]];
+            NSDictionary *options = [NSDictionary dictionary];
+            BOOL ok = [pasteboard canReadObjectForClasses:classArray options:options];
+            if (ok) {
+                NSArray *objectsToPaste = [pasteboard readObjectsForClasses:classArray options:options];
+                NSImage *image = [objectsToPaste objectAtIndex:0];
+                NSLog(@"image:%@",image);
+                [self.imgView setImage:image];
+            }
+        });
     }
     SwizzleSelectorWithBlock_End;
 }

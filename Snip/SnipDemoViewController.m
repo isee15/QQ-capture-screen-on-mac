@@ -10,7 +10,7 @@
 #import "Snip/CScreenshot.h"
 #import "MQUI/MQSCCaptureWindowManager.h"
 #import "HookUtil.h"
-
+#import "JTHeader.h"
 @interface SnipDemoViewController ()
 @property (weak) IBOutlet NSImageView *imgView;
 
@@ -39,12 +39,24 @@
         });
     }
     SwizzleSelectorWithBlock_End;
+    SwizzleSelectorWithBlock_Begin([[JTCaptureManager sharedInstance] class], @selector(captureDidFinishWithImage:needSave:isHighResolution:))
+    ^(JTCaptureManager *oriSelf, id arg1,BOOL arg2,BOOL arg3) {
+        ((BOOL (*)(id, SEL,id,BOOL,BOOL))_imp)(oriSelf, _cmd, arg1,arg2,arg3);
+        NSLog(@"finishedCapture jt：%@",arg1);
+        [self.imgView setImage:arg1];
+    }
+    SwizzleSelectorWithBlock_End;
+
 }
 - (IBAction)onStart:(id)sender {
-    if (![CScreenshot isCapturing]) {
-        //startScreenshot:(enum GrabType)grabType saveType:(enum SaveType)saveType savePath:(NSString*)savePath sound:(BOOL)sound windowShadow:(BOOL)windowShadow;
-        //[CScreenshot startScreenshot:GrabWindowAndSelection saveType:SAVE_TO_CLIPBOARD savePath:nil sound:YES windowShadow:NO];
-        [[MQSCCaptureWindowManager sharedInstance] startCapture:nil];
+//    if (![CScreenshot isCapturing]) {
+//        //startScreenshot:(enum GrabType)grabType saveType:(enum SaveType)saveType savePath:(NSString*)savePath sound:(BOOL)sound windowShadow:(BOOL)windowShadow;
+//        //[CScreenshot startScreenshot:GrabWindowAndSelection saveType:SAVE_TO_CLIPBOARD savePath:nil sound:YES windowShadow:NO];
+//        [[MQSCCaptureWindowManager sharedInstance] startCapture:nil];
+//    }
+
+    if (![[JTCaptureManager sharedInstance] isCapturing]) {
+        [[JTCaptureManager sharedInstance] startCaptureByRequest:nil];
     }
 }
 

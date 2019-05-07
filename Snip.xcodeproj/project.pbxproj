@@ -62,6 +62,7 @@
 		B36E612A22812A9E00D684B4 /* CocoaLumberjack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaLumberjack.framework; path = Frameworks/CocoaLumberjack.framework; sourceTree = "<group>"; };
 		B36E612D22812C4100D684B4 /* HookUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HookUtil.h; sourceTree = "<group>"; };
 		B36E612E22812C4100D684B4 /* HookUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HookUtil.m; sourceTree = "<group>"; };
+		B395FE89228136BB006398E2 /* JTHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTHeader.h; sourceTree = "<group>"; };
 		D2C3CF091A7A49FF00C91BFD /* Snip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snip.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C3CF0D1A7A49FF00C91BFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D2C3CF0E1A7A49FF00C91BFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -146,6 +147,7 @@
 				D2C3CF2F1A7A4CA400C91BFD /* SnipDemoViewController.m */,
 				B36E612D22812C4100D684B4 /* HookUtil.h */,
 				B36E612E22812C4100D684B4 /* HookUtil.m */,
+				B395FE89228136BB006398E2 /* JTHeader.h */,
 			);
 			path = Snip;
 			sourceTree = "<group>";

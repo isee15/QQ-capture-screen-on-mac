@@ -23,4 +23,5 @@ SwizzleSelectorWithBlock_Begin([[JTCaptureManager sharedInstance] class], @selec
     }
 SwizzleSelectorWithBlock_End;
 ```
+如果需要源码的简单实现，可以参考https://github.com/isee15/Capture-Screen-For-Multi-Screens-On-Mac
 <img src="snapshot.png"></img>
